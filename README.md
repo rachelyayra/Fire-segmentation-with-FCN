@@ -17,14 +17,19 @@ This repository contains the following FCN-based models for fire semantic segmen
 1. **FCN-32(without transfer learning)**
    - Architecture: Fully Convolutional Network (FCN-32)
    - Description: The FCN-32 model provides a baseline for fire segmentation using a deep fully convolutional architecture. It offers a good balance between accuracy and computational efficiency.
+   - IoU score: **0.49591064**
+   
 2. **FCN-32(withtransfer learning)**
    - Architecture: Fully Convolutional Network (FCN-32)
    - Description: The FCN-32 model provides a baseline for fire segmentation using a deep fully convolutional architecture. It offers a good balance between accuracy and computational efficiency. However due to the use of VGG16 as a teacher model, the accuracy is significantly higher.
+   - IoU score: **0.578527**
 
 3. **FCN-16**
    - Architecture: Fully Convolutional Network (FCN-16)
    - Description: The FCN-16 model enhances segmentation precision by incorporating skip connections from lower-level layers. This results in improved delineation of fire regions.
+   - IoU score: **0.65374625**
 
 4. **FCN-8**
    - Architecture: Fully Convolutional Network (FCN-8)
    - Description: The FCN-8 model further refines segmentation accuracy by leveraging skip connections from multiple layers, leading to highly detailed fire region predictions.
+   - IoU score: **0.6694724**
